@@ -6,10 +6,10 @@ A tool designed for companies to receive and broadcast staff-members' responses 
 * "*What is your **personal** victory this week?*"
 
 
-#Installation 
+# Installation 
 
 
-####Requirements 
+#### Requirements 
 
 This tool uses the following libraries: 
 * Gspread 
