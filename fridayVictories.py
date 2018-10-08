@@ -5,6 +5,15 @@ from slackclient import SlackClient
 from keys import (token, clientSecret)
 import time
 
+# content of test_sample.py
+def func(x):
+    return x + 1
+
+
+def test_answer():
+    assert func(3) == 4
+
+
 # Any print() will be written to the HTML file
 sys.stdout = open('file.html', 'w')
 
@@ -118,6 +127,4 @@ while responsesIngested is not 0:
 
     print("<div class=\"title\">", "<h1> <div class=\"title_text\">", "This week,", (len(workVictory) - 1),
           " people filled in their Friday victories!", "</div>", "</div>")
-
-
 
